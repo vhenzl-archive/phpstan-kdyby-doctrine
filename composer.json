@@ -12,10 +12,16 @@
 	"config": {
 		"sort-packages": true
 	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/vhenzl/phpstan-doctrine"
+		}
+	],
 	"require": {
 		"php": "~7.0",
 		"phpstan/phpstan": "^0.8",
-		"phpstan/phpstan-doctrine": "^0.8"
+		"phpstan/phpstan-doctrine": "dev-develop"
 	},
 	"require-dev": {
 		"consistence/coding-standard": "~0.13.0",

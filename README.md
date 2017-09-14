@@ -5,10 +5,23 @@
 
 ## Usage
 
-To use this extension, require it in [Composer](https://getcomposer.org/):
+This extension is under development and haven't been publish yet.
+You can install and use it on your own risk. 
+To do so, add it manually into your `consposer.json`:
 
-```
-composer require --dev vhenzl/phpstan-kdyby-doctrine
+
+```json
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/vhenzl/phpstan-kdyby-doctrine"
+        }
+    ],
+    "require-dev": {
+        "vhenzl/phpstan-kdyby-doctrine": "dev-master"
+    }
+}
 ```
 
 And include extension.neon in your project's PHPStan config:

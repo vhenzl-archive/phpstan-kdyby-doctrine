@@ -1,1 +1,9 @@
 services:
+	-
+		class: PHPStanKdybyDoctrine\Type\EntityManagerGetRepositoryDynamicReturnTypeExtension
+		tags:
+			- phpstan.broker.dynamicMethodReturnTypeExtension
+	-
+		class: PHPStanKdybyDoctrine\Type\EntityRepositoryFindAssocDynamicReturnTypeExtension
+		tags:
+			- phpstan.broker.dynamicMethodReturnTypeExtension
